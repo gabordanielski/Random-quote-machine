@@ -6,6 +6,8 @@ $(function() {
   $newquote = $('.newquote');
   $twitterpost = $('.twitterpost');
 
+  //var colors = ['#0014ff','#ff2f00','#00ff08','#ff00a5','#efff00','#787969','#b33636'];
+
   var quote = '';
   var author ='';
 
@@ -35,6 +37,7 @@ $(function() {
     $blockquote.slideUp(function(){
       getQuote();
     });
+    //$('body').attr('style', 'background-color:'+colors[number]+'!important');
   });
 
   $twitterpost.click(function(){
