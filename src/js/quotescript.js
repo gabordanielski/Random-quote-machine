@@ -16,17 +16,14 @@ $(function() {
   				url: "https://andruxnet-random-famous-quotes.p.mashape.com/",
   				type: "GET",
   				//dataType: "json",
-  				// do i need that ?
   				headers: { "X-Mashape-Key": "jyE8DjXc6OmshYj9Pc4FVHRvRHzep1Zh6GGjsnh5fxXuKB5r6y" },
   				success: function (data){
-  					//document.write(JSON.stringify(data));
   					$.each(data,function(i,order){
-  							$quotebody.html(data.quote);
-                $quoteauthor.html(data.author);
-                quote = data.quote;
-                author = data.author;
+  							$quotebody.html(data[0].quote);
+                $quoteauthor.html(data[0].author);
+                quote = data[0].quote;
+                author = data[0].author;
   					});
-  					console.log(data);
             $blockquote.slideDown();
   				},
   				error: function (msg) { alert(msg); }
