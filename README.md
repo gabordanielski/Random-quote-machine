@@ -1,2 +1,31 @@
 # Random-quote-machine
-FreeCodeCamp challenge 
+> Simple quotes generator app created with JS, jQuery (+AJAX) and Bootstrap.
+
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies-tools-and-features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
+
+## General info
+Project, created to learn more about AJAX and API usage. Simple layout created with bootstrap.
+
+## Technologies, tools and features
+* HTML, CSS
+* Javascript
+* jQuery
+* Sass
+* AJAX
+* API usage
+* Gulp
+* Npm 
+
+## Status
+Project is: _finished_.
+
+## Inspiration
+Inspired by Free Code Camp challenge.
+
+## Contact
+Created by [@Gabor Danielski](http://www.gabordanielski.pl) - feel free to contact me!
